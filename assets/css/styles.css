@@ -160,6 +160,14 @@ p {
     border-radius: 10px;
 }
 
+#video video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    pointer-events: none;
+}
+
 .tbl-tarifa {
     width: 100%;
     border-collapse: collapse;
