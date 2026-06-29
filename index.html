@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Centro de Obstetricia Vida</title>
+
+    <!-- Enlazar hoja de estilos CSS externa -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Favicon (icono de la pestaña del navegador) -->
+    <link rel="shortcut icon" href="assets/img/obstetricia.png" type="image/x-icon">
+
+    <!-- Conexión con Google Fonts (fuente Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Librería de iconos Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<!-- ===================== BARRA SUPERIOR (TOPBAR) ===================== -->
+<!-- Contiene información de contacto y redes sociales -->
+<section id="topbar" class="padding-xs">
+    <div class="container">
+        <div class="topbar-container">
+
+            <!-- Contactos (teléfono y correo) -->
+            <div class="topbar-contacts">
+                <a target="_blank" href="tel:+51922680581">
+                    <i class="fa-solid fa-phone"></i>
+                    (+51) 922-680-581
+                </a>
+
+                <a target="_blank" href="mailto:contacto@centrodevida.com">
+                    <i class="fa-regular fa-envelope"></i>
+                    contacto@centrodevida.com
+                </a>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="topbar-social">
+                <a target="_blank" href="https://www.facebook.com/UTP.Peru/">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a target="_blank" href="https://www.instagram.com/universidadutp/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a target="_blank" href="https://www.tiktok.com/@universidadutp?lang=es">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CABECERA / NAVEGACIÓN ===================== -->
+<header id="header" class="padding-xs sticky-top">
+    <div class="container">
+
+        <!-- Contenedor principal del menú -->
+        <div class="nav-bar">
+
+            <!-- LOGO -->
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img class="img-fluid" src="assets/img/logo.png" alt="Logo del Centro de Obstetricia Vida">
+                </a>
+            </div>
+
+            <!-- Ícono menú hamburguesa (para móviles) -->
+            <div class="nav-menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- MENÚ DE NAVEGACIÓN -->
+            <nav class="nav-menu">
+                <a class="nav-menu-link nav-menu-link-active" href="index.html">Inicio</a>
+                <a class="nav-menu-link" href="assets/pages/nosotros.html">Nosotros</a>
+                <a class="nav-menu-link" href="assets/pages/servicios.html">Servicios</a>
+                <a class="nav-menu-link" href="assets/pages/equipos.html">Equipos</a>
+                <a class="nav-menu-link" href="assets/pages/testimonios.html">Testimonios</a>
+                <a class="nav-menu-link" href="assets/pages/contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+    </div>
+</header>
+
+<!-- ===================== CONTENIDO PRINCIPAL ===================== -->
+<main>
+
+    <!-- ===================== BANNER PRINCIPAL ===================== -->
+    <section id="banner">
+        <img class="img-fluid" src="assets/img/banner.png" alt="Banner principal del Centro de Obstetricia Vida">
+    </section>
+
+    <!-- ===================== QUIÉNES SOMOS ===================== -->
+    <section id="about" class="padding-xl">
+        <div class="container">
+            <h2>Quiénes somos</h2>
+
+            <!-- Descripción de la empresa -->
+            <p>
+                En el Centro de Obstetricia Vida brindamos atención especializada para el cuidado de la mujer durante el embarazo, parto y postparto.
+                Nuestro equipo profesional trabaja con compromiso, tecnología y vocación de servicio para garantizar la salud de la madre y del bebé.
+            </p>
+
+            <p>
+                Contamos con profesionales altamente capacitados y un ambiente seguro y confortable para nuestras pacientes.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================== SERVICIOS ===================== -->
+    <section id="servicios" class="padding-xl">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+
+            <!-- Contenedor de tarjetas -->
+            <div class="row">
+
+                <!-- Servicio 1 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/control.png" alt="Control prenatal">
+                        <div class="card-container">
+                            <h3>Control Prenatal</h3>
+                            <p>Seguimiento mes a mes para asegurar la salud y el correcto desarrollo de tu bebé.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/ecografia.png" alt="Ecografía obstétrica">
+                        <div class="card-container">
+                            <h3>Ecografía Obstétrica</h3>
+                            <p>Visualiza el crecimiento de tu bebé con equipos tecnológicos de alta definición.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/preparacion.png" alt="Preparación para el parto">
+                        <div class="card-container">
+                            <h3>Preparación del Parto</h3>
+                            <p>Clases guiadas psicoprofilácticas para un proceso de parto seguro y sin temores.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/postparto.png" alt="Atención postparto">
+                        <div class="card-container">
+                            <h3>Atención Postparto</h3>
+                            <p>Seguimiento después del parto para asegurar la recuperación de la madre y el cuidado del bebé.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EQUIPO ===================== -->
+    <section id="equipos" class="padding-xl">
+        <div class="container">
+            <h2>Nuestro Equipo</h2>
+
+            <!-- Descripción del equipo -->
+            <p>
+                Nuestro equipo está integrado por obstetras con amplia formación académica y experiencia clínica,
+                comprometidas con brindar atención de calidad y trato humano a cada paciente.
+            </p>
+
+            <!-- Tarjetas de personal -->
+            <div class="row">
+
+                <!-- Miembro 1 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/lic-andrea.jpg" alt="Licenciada Andrea Ramírez">
+
+                        <div class="card-container">
+                            <h3>Lic. Andrea Ramírez</h3>
+                            <p>Obstetra especialista en control prenatal</p>
+                            <a class="service-button" href="#">Conocer mas</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Miembro 2 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/lic-carla.jpg" alt="Licenciada Carla Torres">
+
+                        <div class="card-container">
+                            <h3>Lic. Carla Torres</h3>
+                            <p>Obstetra especialista en ecografía</p>
+                            <a class="service-button" href="#">Conocer mas</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Miembro 3 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/lic-maria.jpg" alt="Licenciada María López">
+
+                        <div class="card-container">
+                            <h3>Lic. María López</h3>
+                            <p>Obstetra especialista en preparación al parto</p>
+                            <a class="service-button" href="#">Conocer mas</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Miembro 4 -->
+                <div class="card">
+                    <div class="col">
+                        <img class="img-fluid" src="assets/img/lic-angie.jpg" alt="Licenciada Angie Seminario">
+
+                        <div class="card-container">
+                            <h3>Lic. Angie Seminario</h3>
+                            <p>Obstetra especialista en atención postparto</p>
+                            <a class="service-button" href="#">Conocer mas</a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TESTIMONIOS ===================== -->
+    <section id="testimonios" class="padding-xl">
+        <div class="container">
+            <h2>Testimonios</h2>
+
+            <!-- Opiniones de pacientes -->
+            <div class="row">
+
+                <div class="card">
+                    <div class="col">
+                        <div class="card-container text-dark">
+                            <p>"Excelente atención durante todo mi embarazo. Las licenciadas son muy profesionales y amables."</p>
+                            <h3>- Meredith Silva</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="col">
+                        <div class="card-container text-dark">
+                            <p>"Las clases de preparación para el parto me ayudaron muchísimo a perder el miedo. ¡Súper recomendado!"</p>
+                            <h3>- Milagros R.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="col">
+                        <div class="card-container text-dark">
+                            <p>"Un ambiente muy seguro y limpio. Me sentí acompañada en todo momento postparto."</p>
+                            <h3>- Elena G.</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== VIDEO ===================== -->
+    <section id="video" class="padding-xl">
+        <div class="container">
+
+            <!-- Video promocional -->
+            <video class="video-fluid" autoplay muted loop controls>
+                <source src="assets/video/obstetricia.mp4" type="video/mp4">
+            </video>
+
+        </div>
+    </section>
+
+    <!-- ===================== TARIFAS ===================== -->
+    <section id="tarifas" class="padding-xl">
+        <div class="container">
+            <h2>Tarifas de servicios</h2>
+
+            <!-- Tabla de precios -->
+            <table class="tbl-tarifa">
+                <caption>Catalogo de precios</caption>
+
+                <thead>
+                    <tr>
+                        <th>servicio</th>
+                        <th>descripcion</th>
+                        <th>precio</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Control Prenatal</td>
+                        <td>Ecografía Obstétrica</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Ecografía Obstétrica</td>
+                        <td>Monitoreo del desarrollo del bebé</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Preparación para el Parto</td>
+                        <td>Clases guiadas para futuras madres</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Atención Postparto</td>
+                        <td>Control y recuperación después del parto</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Precios actualizados al 2026</td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section id="contact-form" class="padding-xl">
+        <div class="container">
+            <h2>Contactate con nosotros</h2>
+
+            <!-- Formulario de contacto -->
+            <form action="">
+
+                <div>
+
+                    <!-- Campos del formulario -->
+                    <input class="form-control" type="text" placeholder="Nombre" required minlength="3">
+                    <input class="form-control" type="email" placeholder="Correo electronico" required>
+                    <input class="form-control" type="text" placeholder="Asunto" required minlength="5">
+                    <textarea class="form-control form-control-noresize" placeholder="Mensaje" rows="6" cols="40" required minlength="10"></textarea>
+
+                    <!-- Captcha simple -->
+                    <input class="form-control" type="text" placeholder="3 + 2 = ?">
+
+                    <!-- Aceptación de términos -->
+                    <div>
+                        <input id="acepto" type="checkbox">
+                        <label for="acepto">
+                            He leído y acepto los
+                            <a class="form-link" target="_blank" href="https://www.utp.edu.pe/web/politicas-privacidad">
+                                términos y condiciones
+                            </a>
+                            de privacidad acerca del tratamiento de mis datos personales.
+                        </label>
+                    </div>
+
+                    <!-- Botón de envío -->
+                    <button class="form-button" type="submit">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Enviar mensaje
+                    </button>
+
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer id="footer">
+
+    <!-- Parte superior del footer -->
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-flex">
+
+                <!-- Información del centro -->
+                <div class="footer-info">
+                    <p>Centro de Obstetricia Vida</p>
+                    <p>Dirección: Lima, Perú</p>
+                    <p>Email: contacto@obstetricia.com</p>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="footer-social">
+                    <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Parte inferior del footer -->
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© 2026 Todos los derechos reservados</p>
+        </div>
+    </div>
+
+</footer>
+
+<!-- Botón flotante para volver arriba -->
+<a href="#" class="scroll-up">
+    <i class="fa-solid fa-angle-up"></i>
+</a>
+
+<!-- Script JavaScript externo -->
+<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
